@@ -13,6 +13,9 @@ description: 新しいMVプロジェクトの立ち上げと構成案の作成�
    - プロジェクト名から英語のスラッグを決定 (例: `iron_coalition`)
    // turbo
    - ディレクトリ作成コマンドを実行: `mkdir -p projects/[slug]`
+   - `.gitignore` の確認・更新:
+     - プロジェクトルートの `.gitignore` に `*.mp3` が含まれているか確認し、なければ追加する。
+     - 生成された音楽ファイルがGit管理下に入らないようにするため。
 
 3. **リソース読み込み (Load Resources)**
    - 以下のファイルを `view_file` で読み込む:
